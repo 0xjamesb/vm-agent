@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+*.coveragerc
+
+# Runtime data — generated at startup, may contain sensitive operational data
+data/audit.log
+data/cache/
+data/assets.json
+data/tickets.json
+data/exceptions.json
+
+# Claude Code local settings (personal permissions, not shared)
+.claude/settings.local.json
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment files
+.env
+.env.*
