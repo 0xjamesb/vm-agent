@@ -1,0 +1,5 @@
+asset_id,cve_id,package_ecosystem,package_name,package_version,severity,summary
+payment-service,CVE-2024-29041,npm,express,4.17.1,HIGH,Express vulnerable to XSS via malformed URL
+payment-service,CVE-2023-45133,npm,axios,0.21.0,CRITICAL,Axios CSRF vulnerability
+user-auth,CVE-2024-3651,PyPI,django,4.1.0,HIGH,Django SQL injection in JSONField
+api-gateway,CVE-2024-24790,Go,stdlib,1.21.0,CRITICAL,Go net/http memory corruption

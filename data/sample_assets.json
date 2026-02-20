@@ -1,0 +1,44 @@
+{
+  "assets": [
+    {
+      "id": "payment-service",
+      "name": "Payment Service",
+      "description": "Handles all payment processing",
+      "owner_team": "Payments Team",
+      "owner_contact": "@payments-oncall",
+      "criticality": "CRITICAL",
+      "ecosystem": "npm",
+      "compliance_scope": ["PCI-DSS", "SOC2"],
+      "data_classification": "Financial"
+    },
+    {
+      "id": "user-auth",
+      "name": "User Authentication Service",
+      "description": "Handles user login, registration, and session management",
+      "owner_team": "Platform Team",
+      "owner_contact": "@platform-oncall",
+      "criticality": "CRITICAL",
+      "ecosystem": "PyPI",
+      "compliance_scope": ["SOC2", "GDPR"],
+      "data_classification": "PII"
+    },
+    {
+      "id": "api-gateway",
+      "name": "API Gateway",
+      "description": "Central API gateway for all services",
+      "owner_team": "Platform Team",
+      "owner_contact": "@platform-oncall",
+      "criticality": "HIGH",
+      "ecosystem": "Go"
+    },
+    {
+      "id": "internal-dashboard",
+      "name": "Internal Admin Dashboard",
+      "description": "Internal tool for customer support",
+      "owner_team": "Tools Team",
+      "owner_contact": "@tools-team",
+      "criticality": "MEDIUM",
+      "ecosystem": "npm"
+    }
+  ]
+}
